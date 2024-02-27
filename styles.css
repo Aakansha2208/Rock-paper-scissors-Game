@@ -1,0 +1,53 @@
+/* styles.css */
+
+/* Resetting default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style for the h1 element */
+h2 {
+    color: black; /* Change the color to your preference */
+    font-size: 24px; /* Change the font size to your preference */
+    font-family: 'Times New Roman', Times, serif; /* Change the font family to your preference */
+    text-align: center; /* Align text to center */
+    margin-top: 70px; /* Add margin on top */
+}
+/* styles.css */
+
+
+/* Set background color */
+body {
+    background-color: #FFFFFF; /* Change the color code to your desired background color */
+    border: 20px solid #000; /* Border properties */
+    box-sizing: border-box; /* Include border in element's total width and height */
+    width: 90%; /* Set the width of the body */
+    max-width: 600px; /* Set maximum width */
+    margin: 0 auto; /* Center horizontally */
+    position: relative; /* Make body a positioned element fo absolutely positioned children */
+    padding-bottom: 50px; /* Adjust padding to make space for absolutely positioned buttons */
+}
+
+
+/* Style for the button */
+button {
+    padding: 40px 60px; /* Adjust padding as needed */
+    background-color: #808080    ; /* Change the background color of the button */
+    color: black; /* Change the text color of the button */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Add rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    text-align: center; 
+    position: relative; 
+    left : 30px;
+    bottom: -30px;
+    font-size: 14px;
+}
+
+/* Hover effect for the button */
+button:hover {
+    background-color: #FFFF; /* Change the background color on hover */
+}
+
